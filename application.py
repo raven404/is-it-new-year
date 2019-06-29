@@ -11,4 +11,4 @@ def index():
     return render_template("index.html", new_year=new_year)
 @app.route("/<string:input>")
 def data(input):
-    return "Hey Buddy Sorry there is not result for {}!!!".format(input)
+    return "Hey Buddy Sorry there is no result for {}!!!".format(input)
