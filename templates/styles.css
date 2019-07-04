@@ -2,10 +2,12 @@
 div {
   align-content: center;
    text-align: center;
+  padding: 5px;
+  margin: 5px
 }
 #Yes {
    border-left: black;
-   border-width: 20px;
+   border-width: 10px;
    background: grey;
    border-style: inset;
 }
